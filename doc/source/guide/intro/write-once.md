@@ -9,15 +9,17 @@ version: 2.1
 
 Weex is a "Write Once, Run Everywhere" solution.
 
-* First, Weex is based on web dev experience, which including syntax and project management.
-* Second, all components & modules in Weex is discussed by iOS, Android, web developers together to ensure it's common enough to satisfy every platforms.
-* You only need write the same Weex code for each platforms.
+* Weex leverages web dev experience, including syntax and project structure.
+* Each component & module in Weex is discussed by iOS, Android, and web developers together to ensure it's common enough to satisfy every platform.
+* The same Weex code works for all platforms.
 
-We think about it in these aspects below:
+## Consider this
 
-1. Today for almost mobile apps, one app solves the same problem in different platforms. Weex hope to supply a lightweight way to describe your business logic which works well in all platforms you need.
-2. For the differences of all mobile platforms, we are willing to fill the gap in 2 points:
+Today for most mobile apps, one app must solve the same problem over again, for each platform. Weex hopes to supply a lightweight way to describe business logic which works well on all mobile platforms.
+
+For the differences between mobile platforms, we follow these guidlines to fill the gap:
     1. Design the same APIs for all platforms to ensure different platforms the same business logic description.
-    2. Implement the APIs with different style or behaviors to ensure the implementation and user experience matching different platforms.
-    3. If there are definitely some different features in different platforms. We also have some environment variables to help developers in certain detail situations.
-3. We trust (web) standard is the best for all features in all platforms.
+    2. Implement the APIs with any differences in styles or behaviors to ensure the implementation and user experience matches the respective platform.
+Still, different platforms have different features. We also have some environment variables to help developers in specific situations.
+
+We trust web standards to be the best for all features on all platforms.
